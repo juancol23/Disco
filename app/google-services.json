@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "607529826832",
+    "firebase_url": "https://discoteca-930c1.firebaseio.com",
+    "project_id": "discoteca-930c1",
+    "storage_bucket": "discoteca-930c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607529826832:android:d3c1c2df96a186ff",
+        "android_client_info": {
+          "package_name": "disco.riva.com.disco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607529826832-7ee5nlv6fo856vh1q39rdnl9n7stgm1e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "disco.riva.com.disco",
+            "certificate_hash": "93e74f6f050ad0572826a5d516353736734cd9cb"
+          }
+        },
+        {
+          "client_id": "607529826832-vio82r11o6cqsr8tsfpnu5v94286doef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwgLw8w_vhRPvJx-Q3VO3rjuuTrWKGiLs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607529826832-vio82r11o6cqsr8tsfpnu5v94286doef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
