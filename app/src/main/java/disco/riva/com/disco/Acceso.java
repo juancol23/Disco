@@ -66,6 +66,16 @@ public class Acceso extends AppCompatActivity {
                 }
             }
         };
+
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+       
+        if (user != null) {
+            Log.d("Login", user.getUid());
+            accesoPermitido();
+        } else {
+            Log.d("Login", "Signed Out");
+        }
+        
     }
 
     private void init() {
@@ -216,9 +226,9 @@ public class Acceso extends AppCompatActivity {
     }
 
     public void accesoPermitido(){
-        Intent i = new Intent(this,Splash.class);
+        Intent i = new Intent(this,Dashboad.class);
         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
-       // startActivity(i);
+         startActivity(i);
         mProgress.dismiss();
         //finish();
         Log.v("TAG_FACEBOOK","entrando");
