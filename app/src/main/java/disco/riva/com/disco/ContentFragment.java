@@ -42,7 +42,6 @@ public class ContentFragment extends Fragment implements ScreenShotable {
     private DatabaseReference mDatabaseAsesinosSeriales;
     private ProgressDialog mProgress;
 
-
     public static ContentFragment newInstance(int resId) {
         ContentFragment contentFragment = new ContentFragment();
         Bundle bundle = new Bundle();
@@ -50,7 +49,6 @@ public class ContentFragment extends Fragment implements ScreenShotable {
         contentFragment.setArguments(bundle);
         return contentFragment;
     }
-
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
